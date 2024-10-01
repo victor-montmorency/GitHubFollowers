@@ -1,5 +1,5 @@
 //
-//  FolloweCell.swift
+//  FollowerCell.swift
 //  GitHubFollowers
 //
 //  Created by victor mont-morency on 28/09/24.
@@ -7,8 +7,8 @@
 
 import UIKit
 
-class FolloweCell: UICollectionViewCell {
-    static let reuseID: String = "FolloweCell"
+class FollowerCell: UICollectionViewCell {
+    static let reuseID: String = "FollowerCell"
     
     let avatarImageView = GFAvatarImageView(frame: .zero)
     let usernameLabel = GFTitleLabel(textAligment: .center, fontSize: 16)
@@ -41,7 +41,8 @@ class FolloweCell: UICollectionViewCell {
             usernameLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: 12),
             usernameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding),
             usernameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -padding),
-            usernameLabel.heightAnchor.constraint(equalToConstant: 20)
+            usernameLabel.heightAnchor.constraint(equalToConstant: 20),
+            
              
         ])
     }
