@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2383642D2B11FD007B7BEF /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2383632D2B11FD007B7BEF /* UserInfoVC.swift */; };
 		9B2A73702C9E47EA00379E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A73672C9E47EA00379E79 /* AppDelegate.swift */; };
 		9B2A73722C9E47EA00379E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A736D2C9E47EA00379E79 /* SceneDelegate.swift */; };
 		9B2A73742C9E47EA00379E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2A73682C9E47EA00379E79 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B2383632D2B11FD007B7BEF /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		9B2A73182C9E20B700379E79 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2A73672C9E47EA00379E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2A73682C9E47EA00379E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				9B2A73772C9E489800379E79 /* SearchVC.swift */,
 				9B2A73792C9E48A500379E79 /* FavoritesVC.swift */,
 				9B5201952C9F18D600A81767 /* FollowerListVC.swift */,
+				9B2383632D2B11FD007B7BEF /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				9BFD9FEF2C9FB1AF00317287 /* Ext+UIViewController.swift in Sources */,
 				9B6514BE2CA8C1700090A878 /* GFAvatarImageView.swift in Sources */,
 				9B6514BC2CA8BFF40090A878 /* FollowerCell.swift in Sources */,
+				9B2383642D2B11FD007B7BEF /* UserInfoVC.swift in Sources */,
 				9B60F3D82CA4C0FE0012D585 /* Follower.swift in Sources */,
 				9B2A73702C9E47EA00379E79 /* AppDelegate.swift in Sources */,
 				9BFD9FE92C9FA11400317287 /* GFTitleLabel.swift in Sources */,
