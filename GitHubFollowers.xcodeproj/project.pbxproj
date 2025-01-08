@@ -11,6 +11,7 @@
 		9B2383662D2C163F007B7BEF /* GFUserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2383652D2C163F007B7BEF /* GFUserInfoVC.swift */; };
 		9B23836A2D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2383692D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift */; };
 		9B23836E2D2DCF35007B7BEF /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23836D2D2DCF35007B7BEF /* GFItemInfoView.swift */; };
+		9B2383702D2EC6D6007B7BEF /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23836F2D2EC6D6007B7BEF /* GFItemInfoVC.swift */; };
 		9B2A73702C9E47EA00379E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A73672C9E47EA00379E79 /* AppDelegate.swift */; };
 		9B2A73722C9E47EA00379E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A736D2C9E47EA00379E79 /* SceneDelegate.swift */; };
 		9B2A73742C9E47EA00379E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2A73682C9E47EA00379E79 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		9B2383652D2C163F007B7BEF /* GFUserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoVC.swift; sourceTree = "<group>"; };
 		9B2383692D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		9B23836D2D2DCF35007B7BEF /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		9B23836F2D2EC6D6007B7BEF /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		9B2A73182C9E20B700379E79 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2A73672C9E47EA00379E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2A73682C9E47EA00379E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				9B2383652D2C163F007B7BEF /* GFUserInfoVC.swift */,
 				9B2383692D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift */,
 				9B23836D2D2DCF35007B7BEF /* GFItemInfoView.swift */,
+				9B23836F2D2EC6D6007B7BEF /* GFItemInfoVC.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				9B2A73782C9E489800379E79 /* SearchVC.swift in Sources */,
 				9B5201962C9F18D600A81767 /* FollowerListVC.swift in Sources */,
 				9B91C8182D15D8560029E789 /* GFEmptyStateView.swift in Sources */,
+				9B2383702D2EC6D6007B7BEF /* GFItemInfoVC.swift in Sources */,
 				9BFD9FED2C9FA55F00317287 /* GFAlertVC.swift in Sources */,
 				9B23836A2D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift in Sources */,
 				9BE08E362CA4C39400C3BE93 /* User.swift in Sources */,
