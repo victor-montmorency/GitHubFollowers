@@ -47,7 +47,7 @@ class GFItemInfoView: UIView {
             titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             titleLabel.heightAnchor.constraint(equalToConstant: 18),
             
-            countLabel.topAnchor.constraint(equalTo: symbolImageView.topAnchor, constant: 4),
+            countLabel.topAnchor.constraint(equalTo: symbolImageView.bottomAnchor, constant: 4),
             countLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             countLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             countLabel.heightAnchor.constraint(equalToConstant: 18)
@@ -58,22 +58,22 @@ class GFItemInfoView: UIView {
     func set(itemInfoType: itemInfoType, withCount count: Int){
         switch itemInfoType {
         case .followers:
-            symbolImageView.image = UIImage(named: "person.3")
+            symbolImageView.image = UIImage(systemName: "person.3")
             titleLabel.text = "Followers"
             break
             
         case .following:
-            symbolImageView.image = UIImage(named: "heart")
+            symbolImageView.image = UIImage(systemName: "heart")
             titleLabel.text = "Following"
             break
             
         case .gist:
-            symbolImageView.image = UIImage(named: "text.alignleft")
+            symbolImageView.image = UIImage(systemName: "text.alignleft")
             titleLabel.text = "Public Gists"
             break
             
         case .repos:
-            symbolImageView.image = UIImage(named: "folder")
+            symbolImageView.image = UIImage(systemName: "folder")
             titleLabel.text = "Public Repositories"
             break
         }
