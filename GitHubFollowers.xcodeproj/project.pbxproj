@@ -10,6 +10,7 @@
 		9B2383642D2B11FD007B7BEF /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2383632D2B11FD007B7BEF /* UserInfoVC.swift */; };
 		9B2383662D2C163F007B7BEF /* GFUserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2383652D2C163F007B7BEF /* GFUserInfoVC.swift */; };
 		9B23836A2D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2383692D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift */; };
+		9B23836E2D2DCF35007B7BEF /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23836D2D2DCF35007B7BEF /* GFItemInfoView.swift */; };
 		9B2A73702C9E47EA00379E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A73672C9E47EA00379E79 /* AppDelegate.swift */; };
 		9B2A73722C9E47EA00379E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A736D2C9E47EA00379E79 /* SceneDelegate.swift */; };
 		9B2A73742C9E47EA00379E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2A73682C9E47EA00379E79 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		9B2383632D2B11FD007B7BEF /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		9B2383652D2C163F007B7BEF /* GFUserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoVC.swift; sourceTree = "<group>"; };
 		9B2383692D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		9B23836D2D2DCF35007B7BEF /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		9B2A73182C9E20B700379E79 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2A73672C9E47EA00379E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2A73682C9E47EA00379E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				9B91C8172D15D8560029E789 /* GFEmptyStateView.swift */,
 				9B2383652D2C163F007B7BEF /* GFUserInfoVC.swift */,
 				9B2383692D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift */,
+				9B23836D2D2DCF35007B7BEF /* GFItemInfoView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				9B23836A2D2C16CD007B7BEF /* GFSecondaryTitleLabel.swift in Sources */,
 				9BE08E362CA4C39400C3BE93 /* User.swift in Sources */,
 				9BFD9FEF2C9FB1AF00317287 /* Ext+UIViewController.swift in Sources */,
+				9B23836E2D2DCF35007B7BEF /* GFItemInfoView.swift in Sources */,
 				9B6514BE2CA8C1700090A878 /* GFAvatarImageView.swift in Sources */,
 				9B6514BC2CA8BFF40090A878 /* FollowerCell.swift in Sources */,
 				9B2383642D2B11FD007B7BEF /* UserInfoVC.swift in Sources */,
